@@ -1,5 +1,5 @@
-const username = 'lindsay-c-dennis'
-const fork = `${username}/javascript-fetch-lab`
+const username = 'lindsay-c-dennis';
+const fork = `${username}/javascript-fetch-lab`;
 
 function Repo(attributes) {
   this.url = attributes.url;
