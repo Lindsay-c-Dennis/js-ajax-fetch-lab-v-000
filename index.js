@@ -22,7 +22,7 @@ Repo.prototype.template = function() {
 };
 
 function getIssues(data) {
-  fetch(`https://api.github.com/repos//javascript-fetch-lab/issues`).then(res => {
+  fetch(`https://api.github.com/repos/${fork}/issues`).then(res => {
     res.json().then( data => {
       for (let i=0; i<data.length; i++) {
         displayIssue(new Issue(data[i]));
